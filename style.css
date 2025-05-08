@@ -47,44 +47,28 @@ nav a {
 .sub-heading {
   font-size: 16px;
   color: #444;
-  margin-bottom: 8px;
+  margin-bottom: 40px;
 }
 .hero-title {
-  font-size: 48px;
+  font-size: 96px;
   font-weight: bold;
-  margin: 0 0 12px 0;
+  margin: 0 0 48px 0;
   line-height: 1.1;
 }
 .hero-subtitle {
   color: #666;
   font-size: 16px;
-}
-.hero-image-wrapper {
-  position: relative;
-  width: 320px;
-  height: 320px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-.yellow-blob {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 320px;
-  height: 320px;
-  background: #FFD44B;
-  border-radius: 60% 40% 60% 40%/50% 60% 40% 60%;
-  z-index: 1;
+  margin-top: 40px;
 }
 .hero-img {
-  position: relative;
-  width: 240px;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 40% 60% 40% 60%/60% 40% 60% 40%;
-  z-index: 2;
-  margin-right: 0;
+  width: 766px;
+  height: 575px;
+  /* position: fixed; */
+  /* top: 0; */
+  /* right: 0; */
+  /* z-index: 100; */
+  /* border-radius: 40% 60% 40% 60%/60% 40% 60% 40%; */
+  /* box-shadow: 0 4px 24px rgba(0,0,0,0.08); */
 }
 .brands {
   margin: 48px 0 32px 0;
@@ -303,6 +287,7 @@ nav a {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-bottom: 48px;
 }
 .contact-form input,
 .contact-form textarea {
