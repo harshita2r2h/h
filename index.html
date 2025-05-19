@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UX Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <!-- HEADER OUTSIDE CONTAINER -->
   <header class="main-header">
-    <div class="logo">H</div>
+    <div class="logo animate-fade-in">H</div>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -22,52 +25,54 @@
   <div class="container">
     <!-- HERO SECTION -->
     <section class="hero">
-      <div class="hero-content">
+      <div class="hero-content animate-slide-left">
         <p class="sub-heading"><strong>Service | Strategy</strong></p>
         <h1 class="hero-title">My Ux<br>portfolio</h1>
         <p class="hero-subtitle">And I made it myself!</p>
       </div>
-      <div class="hero-image-wrapper">
+      <div class="hero-image-wrapper animate-slide-right">
         <img src="image.png" alt="AI Generated Girl" class="hero-img"/>
       </div>
     </section>
 
     <!-- Brands -->
     <section class="brands">
-      <div class="brands-list">
-        <div class="brand-item">Bē</div>
-        <div class="brand-item">Google</div>
-        <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple" style="height:24px;"></div>
-        <div class="brand-item">dribbble</div>
-        <div class="brand-item">awwwards</div>
+      <div class="brands-list animate-fade-in">
+        <div class="brand-item"><img src="behance-logo-black-and-white.png" alt="Bē" style="height:24px;"></div>
+        <div class="brand-item"><img src="google-logo-black-transparent.png" alt="Google" style="height:48px;"></div>
+        <div class="brand-item"><img src="Apple-Logosu.png" alt="Apple" style="height:48px;"></div>
+        <div class="brand-item"><img src="Dribbble_logo_black.png" alt="dribbble" style="height:24px;"></div>
+        <div class="brand-item"><img src="Awwards-logotype-2018.svg.png" alt="awwwards" style="height:24px;"></div>
       </div>
     </section>
 
     <!-- Experience -->
-    <section class="experience">
-      <p class="section-label">Experience</p>
-      <h2 class="section-title">MY EXPERIENCE</h2>
+    <section id="experience" class="experience">
+      <p class="section-label animate-fade-in">Experience</p>
+      <h2 class="section-title animate-fade-in">My Experience</h2>
       <div class="experience-content">
-        <div class="experience-left">
-          <p class="experience-text">Hello there! My name is Harshita.</p>
-          <p class="experience-text">I am a Ux designer & Strategist, and I'm very passionate and dedicated to my work. I love research!</p>
+        <div class="experience-left animate-slide-left">
+          <p class="experience-text">Hello there! My name is Harshita.<br>
+          I am a Ux designer & Strategist, and I'm very<br>
+           passionate and dedicated to my work. I love<br>
+           research!</p>
           <a href="#" class="download-btn">Download my resume</a>
         </div>
-        <div class="experience-right">
+        <div class="experience-right animate-slide-right">
           <div class="contact-info">
-            <div class="contact-item">+91 6296935357</div>
-            <div class="contact-item">harshitadesigns02@gmail.com</div>
-            <div class="contact-item">22 yrs</div>
-            <div class="contact-item">India</div>
+            <div class="contact-item"><i class="fas fa-phone"></i> +91 6296935357</div>
+            <div class="contact-item"><i class="fas fa-envelope"></i> harshitadesigns02@gmail.com</div>
+            <div class="contact-item"><i class="fas fa-birthday-cake"></i> 22 yrs</div>
+            <div class="contact-item"><i class="fas fa-map-marker-alt"></i> India</div>
           </div>
           <div class="stats">
             <div class="stat-item">
               <div class="stat-number">2+</div>
-              <div class="stat-label">Years<br>experience...</div>
+              <div class="stat-label">Years experience...</div>
             </div>
             <div class="stat-item">
               <div class="stat-number">6</div>
-              <div class="stat-label">Clients<br>Worldwide...</div>
+              <div class="stat-label">Clients Worldwide...</div>
             </div>
           </div>
         </div>
@@ -75,20 +80,20 @@
     </section>
 
     <!-- Services -->
-    <section class="services">
+    <section id="services" class="services">
       <div class="services-list">
-        <div class="service-item">
-          <div class="service-icon"></div>
+        <div class="service-item animate-fade-in">
+          <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
           <h3 class="service-title">Product design</h3>
           <p class="service-description">This is a template Figma file, turned into code using Anima.<br>Learn more at AnimaApp.com</p>
         </div>
-        <div class="service-item">
-          <div class="service-icon"></div>
+        <div class="service-item animate-fade-in" style="animation-delay: 0.2s">
+          <div class="service-icon"><i class="fas fa-cogs"></i></div>
           <h3 class="service-title">Service Design</h3>
           <p class="service-description">This is a template Figma file, turned into code using Anima.<br>Learn more at AnimaApp.com</p>
         </div>
-        <div class="service-item">
-          <div class="service-icon"></div>
+        <div class="service-item animate-fade-in" style="animation-delay: 0.4s">
+          <div class="service-icon"><i class="fas fa-chart-line"></i></div>
           <h3 class="service-title">Strategy Building</h3>
           <p class="service-description">This is a template Figma file, turned into code using Anima.<br>Learn more at AnimaApp.com</p>
         </div>
@@ -96,21 +101,27 @@
     </section>
 
     <!-- Latest Work -->
-    <section class="latest-work">
-      <h2 class="latest-work-title">My latest work</h2>
+    <section id="work" class="latest-work">
+      <h2 class="latest-work-title animate-fade-in">My latest work</h2>
       <div class="work-list">
-        <div class="work-item">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Managing Traffic in Gurugram" class="work-image">
+        <div class="work-item animate-fade-in">
+          <div class="work-image-container">
+            <img src="OIP.jpeg" alt="Managing Traffic in Gurugram" class="work-image">
+          </div>
           <h3 class="work-title">Managing Traffic In Gurugram</h3>
           <p class="work-category">Service and System Design</p>
         </div>
-        <div class="work-item">
-          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Transforming Realty" class="work-image">
+        <div class="work-item animate-fade-in" style="animation-delay: 0.2s">
+          <div class="work-image-container">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=400&q=80" alt="Transforming Realty" class="work-image">
+          </div>
           <h3 class="work-title">Transforming Realty</h3>
           <p class="work-category">Service Design</p>
         </div>
-        <div class="work-item">
-          <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Transforming Dhobi Service" class="work-image">
+        <div class="work-item animate-fade-in" style="animation-delay: 0.4s">
+          <div class="work-image-container">
+            <img src="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=400&q=80" alt="Transforming Dhobi Service" class="work-image">
+          </div>
           <h3 class="work-title">Transforming Dhobi Service</h3>
           <p class="work-category">Product, Service and Strategy Design</p>
         </div>
@@ -118,24 +129,24 @@
     </section>
 
     <!-- Contact -->
-    <section class="contact">
-      <h2 class="contact-heading">Let's work together</h2>
+    <section id="contact" class="contact">
+      <h2 class="contact-heading animate-fade-in">Let's work together</h2>
       <div class="contact-content">
-        <div class="contact-left">
+        <div class="contact-left animate-slide-left">
           <p class="contact-text">Reach out to me</p>
           <div class="social-links">
-            <a href="#" class="social-link">D</a>
-            <a href="#" class="social-link">F</a>
-            <a href="#" class="social-link">D</a>
-            <a href="#" class="social-link">I</a>
-            <a href="#" class="social-link">Bē</a>
+            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
           </div>
         </div>
-        <div class="contact-right">
+        <div class="contact-right animate-slide-right">
           <form class="contact-form">
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Type your message here"></textarea>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Type your message here" required></textarea>
             <button type="submit" class="submit-btn">Submit</button>
           </form>
         </div>
